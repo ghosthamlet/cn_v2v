@@ -9,7 +9,7 @@ No optical flow, no ebsynth, no postprocessing, very stable background, sometime
 
 Only tested on Ubuntu. 
 
-Install ffmpeg, controlnet webui extension: https://github.com/Mikubill/sd-webui-controlnet (download models: control_v11p_sd15_lineart_fp16 control_v11p_sd15_softedge_fp16 control_v11f1p_sd15_depth_fp16 control_v11p_sd15_normalbae_fp16 control_v11f1e_sd15_tile_fp16, and diff_control_sd15_temporalnet_fp16 from https://huggingface.co/CiaraRowles/TemporalNet)
+Install ffmpeg, controlnet webui extension: https://github.com/Mikubill/sd-webui-controlnet (download models: control_v11p_sd15_lineart_fp16, control_v11p_sd15_softedge_fp16, control_v11f1p_sd15_depth_fp16, control_v11p_sd15_normalbae_fp16, control_v11f1e_sd15_tile_fp16, and diff_control_sd15_temporalnet_fp16 from https://huggingface.co/CiaraRowles/TemporalNet)
 
 Download checkpoint animelike25D_animelike25DPruned [fded6ea807] from civitai.com
 
