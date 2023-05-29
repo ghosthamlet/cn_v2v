@@ -1,7 +1,7 @@
 
 # ControlNet only video2video webui custom script
 
-A simple script for preset ControlNets settings in code to convert video to cartoon, just change few options, you can convert arbitary video (except grayscale or cartoon video) with no length limit to cartoon, not just Dancing girl videos but all type videos.
+A simple script for preset optimized ControlNets settings in code to convert video to cartoon, just change few options, you can convert arbitary video (except grayscale or cartoon video) with no length limit to cartoon, not just Dancing girl videos but all type videos.
 
 No optical flow, no ebsynth, no postprocessing, very stable background, sometimes stable humans and faces.
 
