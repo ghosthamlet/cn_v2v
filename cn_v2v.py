@@ -71,7 +71,7 @@ class Script(scripts.Script):
             with gr.Row():
                 with gr.Column(min_width=100):
                     use_optimized_preset = gr.Checkbox(
-                            label='Use optimized preset, all other settings will be override, except temporalnet/prompt/width/height/seed/model. (Set `Multi ControlNet: Max models amount` to 6)',
+                            label='Use optimized preset, all other settings will be override, except temporalnet/prompt/width/height/seed/model. (Have to Set `Multi ControlNet: Max models amount` to 6)',
                             value=True)
 
                   # XXX simply set temporalnet_weight to 0.2 for more cartoon
