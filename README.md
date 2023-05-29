@@ -1,7 +1,7 @@
 
 # ControlNet only video2video webui custom script
 
-A simple script for preset ControlNet in code to convert video to cartoon, just change few options, you can convert arbitary video (except grayscale or cartoon video) with no length limit to cartoon.
+A simple script for preset ControlNets settings in code to convert video to cartoon, just change few options, you can convert arbitary video (except grayscale or cartoon video) with no length limit to cartoon, not just Dancing girl videos but all type videos.
 
 No optical flow, no ebsynth, no postprocessing, very stable background, sometimes stable humans and faces.
 
@@ -28,12 +28,18 @@ As the checkpoint downloaded in Requirements animelike25D_animelike25DPruned is 
 
 #### simple method
 In img2img panel, Change width/height, select `CN v2v` in script dropdown, upload a video, wait until it upload fininsh, there will be a 'Download' link. 
+
 After that, you can see two links appeared at the page bottom, the first link is the first frame image of converted video, the second link is the converted video, after convert finished, you can click the two links to check them. (I still don't know simple method to show video after convert finished in gradio)
+
 (optional, if you want more cartoon, change Temporalnet weight to 0.2, but it will have more flickering)
+
 Settings finished, go click Generate.
 
 #### improve quality
 you can just change the seed, different seed sometimes have very different quality.
+
 For test seed, you can upload a important video frame in img2img, and enable `Test settings on a single image, have to upload a image in img2img` in cn_v2v.  
+
 Settings finished, go click Generate.
+
 After you find a better seed, fill it in Seed input, disable `Test settings on a single image, have to upload a image in img2img`, follow above `simple method` to convert video. 
