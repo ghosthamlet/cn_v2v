@@ -10,13 +10,11 @@ See a 6min converted video: https://youtu.be/lAN_ziOZCfQ
 
 If you want to know all the settings for convert the above video, it is here:
 
-```
 prompt: Ink style
 
 Negative prompt: deformed, ugly, mutilated, disfigured, text, extra limbs, face cut, head cut, extra fingers, extra arms, poorly drawn face, mutation, bad proportions, cropped head, malformed limbs, mutated hands, fused fingers, long neck, lowres, error, cropped, worst quality, low quality, jpeg artifacts, out of frame, watermark, signature
 
 Steps: 6, Sampler: Euler, CFG scale: 1, Seed: 1259467077, Size: 960x512, Model hash: fded6ea807, Model: animelike25D_animelike25DPruned, Denoising strength: 0.8, Version: v1.2.1, ControlNet 0: "preprocessor: lineart_realistic, model: control_v11p_sd15_lineart_fp16 [5c23b17d], weight: 1, starting/ending: (0, 1), resize mode: Crop and Resize, pixel perfect: True, control mode: ControlNet is more important, preprocessor params: (512, 64, 64)", ControlNet 1: "preprocessor: softedge_hedsafe, model: control_v11p_sd15_softedge_fp16 [f616a34f], weight: 1, starting/ending: (0, 1), resize mode: Crop and Resize, pixel perfect: True, control mode: ControlNet is more important, preprocessor params: (512, 1, 64)", ControlNet 2: "preprocessor: depth_midas, model: control_v11f1p_sd15_depth_fp16 [4b72d323], weight: 1, starting/ending: (0, 1), resize mode: Crop and Resize, pixel perfect: True, control mode: ControlNet is more important, preprocessor params: (512, 64, 64)", ControlNet 3: "preprocessor: normal_bae, model: control_v11p_sd15_normalbae_fp16 [592a19d8], weight: 1, starting/ending: (0, 1), resize mode: Crop and Resize, pixel perfect: True, control mode: ControlNet is more important, preprocessor params: (512, 64, 64)", ControlNet 4: "preprocessor: none, model: diff_control_sd15_temporalnet_fp16 [adc6bd97], weight: 0.5, starting/ending: (0, 1), resize mode: Crop and Resize, pixel perfect: True, control mode: Balanced, preprocessor params: (512, 1, 64)", ControlNet 5: "preprocessor: tile_resample, model: control_v11f1e_sd15_tile_fp16 [3b860298], weight: 1, starting/ending: (0, 1), resize mode: Crop and Resize, pixel perfect: True, control mode: ControlNet is more important, preprocessor params: (512, 1, 64)"
-```
 
 Most of these settings is preseted in cn_v2v code.
 
