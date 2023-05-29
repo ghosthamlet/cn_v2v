@@ -6,6 +6,8 @@ A simple script for preset optimized ControlNets settings in code to convert vid
 No optical flow, no ebsynth, no postprocessing, very stable background, sometimes stable humans and faces.
 
 
+See a short converted video: https://www.reddit.com/r/StableDiffusion/comments/13usjxj/controlnet_only_video2video_custom_script_no/
+
 See a 6min converted video: https://youtu.be/lAN_ziOZCfQ
 
 If you want to know all the settings for convert the above video, it is here:
