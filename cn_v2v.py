@@ -351,7 +351,6 @@ class Script(scripts.Script):
                         )
 
             LATENT_MEM.enabled = use_cross_frame_attn
-            LATENT_MEM.enabled = False
 
             if use_cross_frame_attn:
                 LATENT_MEM.init()
