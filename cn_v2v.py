@@ -940,7 +940,7 @@ def _cross_frame_forward(self, x, context=None, mask=None):
 
     # XXX: to avoid cross_frame_attn for temporalnet controlnet,
     #     after update controlnet extension, must add below codes
-    #     But before add temporalnet controlnet, no need this, and other controlnet seems also have self_attn 
+    #     But before add temporalnet controlnet, no need this, and controlnet also have self_attn 
     # XXX: after disable cross_frame_attn for all controlnet, some frames have multiple hands problem,
     #      but whole quality is a bit better
 
