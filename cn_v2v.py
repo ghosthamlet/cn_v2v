@@ -273,6 +273,8 @@ class Script(scripts.Script):
                             label="Temporalnet Control Mode (Guess Mode)")
 
                     # good for grayscale video
+                    # Taylor Swift and Tom Hanks are talking before a white wall, By Van Gogh 
+                    # best checkpoint are Protogen_v2.2 cardosanimeV2.hCCt
                     use_cross_frame_attn = gr.Checkbox(label='Use cross frame attn', value=False)
 
             with gr.Row():
@@ -651,9 +653,6 @@ def make_control_net_temporalnet_for_colorful(
         processor_res=512,
         use_more_cartoon_preset=False,
         use_cross_frame_attn=False):
-
-    if use_cross_frame_attn:
-        return
 
     net = p.script_args[5]
     set_control_net_common_settings(net)

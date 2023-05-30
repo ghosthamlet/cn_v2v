@@ -1,4 +1,10 @@
 
+# Update 2023.5.30 added use_cross_frame_attn option for convert grayscale video
+NOTES: 
+After added this option, it confick with webui optimizations in sd_hijack.py!!! Will deal with this problem later.
+
+for use_cross_frame_attn, best checkpoint are Protogen_v2.2 cardosanimeV2.hCCt
+
 # ControlNet only video2video webui custom script
 
 A simple script for preset optimized ControlNets settings in code to convert video to cartoon, just change few options, you can convert arbitary video (except grayscale or cartoon video) with no length limit to cartoon, not just Dancing girl videos but all type videos.
