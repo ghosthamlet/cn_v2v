@@ -908,7 +908,6 @@ class ffmpeg:
 
 def unload():
     ldm.modules.attention.CrossAttention.forward = ldm.modules.attention.CrossAttention.forward_before_cross_frame
-    processing.decode_first_stage = processing.orig_decode_first_stage
 
 if not hasattr(ldm.modules.attention.CrossAttention, 'forward_before_cross_frame'):
    ldm.modules.attention.CrossAttention.forward_before_cross_frame = ldm.modules.attention.CrossAttention.forward
